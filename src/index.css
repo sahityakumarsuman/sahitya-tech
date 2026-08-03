@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    /*
+   * Theme tokens (RGB triplets so Tailwind's <alpha-value> opacity works).
+   * Every color the UI uses is a variable — components never hard-code colors.
+   * Themes are a two-axis system: <palette>-<mode> chosen via [data-theme]
+   * on <html> (see ThemeProvider). Dark modes also get the `.dark` class so
+   * Tailwind's `dark:` variants keep working. :root mirrors indigo-dark.
+   *
+   *   indigo   – indigo + cyan (default)
+   *   emerald  – black / white + green
+   *   forest   – earthy olive / moss / pine greens
+   *   stone    – neutral monochrome greys
+   *   mono     – pure black & white (high contrast)
+   * …each available as -dark and -light.
+   * :root mirrors mono-light (the default theme).
+   */
+    :root,
+    [data-theme='mono-light'] {
+        --c-bg-900: 255 255 255;
+        --c-bg-800: 255 255 255;
+        --c-bg-700: 235 235 235;
+        --c-bg-600: 214 214 214;
+        --c-white: 0 0 0;
+        --c-slate-200: 23 23 23;
+        --c-slate-300: 38 38 38;
+        --c-slate-400: 64 64 64;
+        --c-slate-500: 115 115 115;
+        --c-accent: 23 23 23;
+        --c-accent-hover: 0 0 0;
+        --c-accent-soft: 38 38 38;
+        --c-glow: 82 82 82;
+        --c-on-accent: 255 255 255;
+    }
+
+    [data-theme='indigo-dark'] {
+        --c-bg-900: 10 10 15;
+        --c-bg-800: 18 18 26;
+        --c-bg-700: 26 26 37;
+        --c-bg-600: 36 36 51;
+        --c-white: 255 255 255;
+        --c-slate-200: 226 232 240;
+        --c-slate-300: 203 213 225;
+        --c-slate-400: 148 163 184;
+        --c-slate-500: 100 116 139;
+        --c-accent: 99 102 241;
+        --c-accent-hover: 79 70 229;
+        --c-accent-soft: 129 140 248;
+        --c-glow: 34 211 238;
+        --c-on-accent: 255 255 255;
+    }
+
+    [data-theme='indigo-light'] {
+        --c-bg-900: 248 250 252;
+        --c-bg-800: 255 255 255;
+        --c-bg-700: 226 232 240;
+        --c-bg-600: 203 213 225;
+        --c-white: 15 23 42;
+        --c-slate-200: 51 65 85;
+        --c-slate-300: 71 85 105;
+        --c-slate-400: 71 85 105;
+        --c-slate-500: 100 116 139;
+        --c-accent: 99 102 241;
+        --c-accent-hover: 79 70 229;
+        --c-accent-soft: 79 70 229;
+        --c-glow: 6 182 212;
+        --c-on-accent: 255 255 255;
+    }
+
+    [data-theme='emerald-dark'] {
+        --c-bg-900: 7 12 10;
+        --c-bg-800: 14 22 18;
+        --c-bg-700: 21 32 26;
+        --c-bg-600: 32 46 38;
+        --c-white: 240 253 244;
+        --c-slate-200: 209 232 218;
+        --c-slate-300: 167 205 181;
+        --c-slate-400: 122 160 136;
+        --c-slate-500: 92 122 104;
+        --c-accent: 16 185 129;
+        --c-accent-hover: 5 150 105;
+        --c-accent-soft: 52 211 153;
+        --c-glow: 52 211 153;
+        --c-on-accent: 3 20 14;
+    }
+
+    [data-theme='emerald-light'] {
+        --c-bg-900: 247 254 250;
+        --c-bg-800: 255 255 255;
+        --c-bg-700: 219 244 231;
+        --c-bg-600: 187 230 209;
+        --c-white: 12 35 24;
+        --c-slate-200: 30 60 45;
+        --c-slate-300: 52 88 68;
+        --c-slate-400: 58 94 74;
+        --c-slate-500: 92 122 104;
+        --c-accent: 5 150 105;
+        --c-accent-hover: 4 120 87;
+        --c-accent-soft: 4 120 87;
+        --c-glow: 5 150 105;
+        --c-on-accent: 255 255 255;
+    }
+
+    /* Forest — Dust Grey #dad7cd · Dry Sage #a3b18a · Fern #588157 ·
+     Hunter Green #3a5a40 · Pine Teal #344e41 */
+    [data-theme='forest-dark'] {
+        --c-bg-900: 18 27 21;
+        --c-bg-800: 26 39 31;
+        --c-bg-700: 37 54 43;
+        --c-bg-600: 52 78 65;
+        --c-white: 240 244 236;
+        --c-slate-200: 218 224 208;
+        --c-slate-300: 189 200 173;
+        --c-slate-400: 156 172 138;
+        --c-slate-500: 118 134 105;
+        --c-accent: 96 141 95;
+        --c-accent-hover: 88 129 87;
+        --c-accent-soft: 163 177 138;
+        --c-glow: 163 177 138;
+        --c-on-accent: 255 255 255;
+    }
+
+    [data-theme='forest-light'] {
+        --c-bg-900: 218 215 205;
+        --c-bg-800: 236 234 225;
+        --c-bg-700: 200 205 182;
+        --c-bg-600: 163 177 138;
+        --c-white: 34 48 37;
+        --c-slate-200: 52 78 65;
+        --c-slate-300: 58 90 64;
+        --c-slate-400: 64 92 66;
+        --c-slate-500: 96 116 88;
+        --c-accent: 58 90 64;
+        --c-accent-hover: 52 78 65;
+        --c-accent-soft: 58 90 64;
+        --c-glow: 88 129 87;
+        --c-on-accent: 255 255 255;
+    }
+
+    /* Stone — Bright Snow #f8f9fa · Alabaster #dee2e6 · Pale Slate #ced4da/#adb5bd ·
+     Slate Grey #6c757d · Iron #495057 · Gunmetal #343a40 · Shadow #212529 */
+    [data-theme='stone-dark'] {
+        --c-bg-900: 33 37 41;
+        --c-bg-800: 42 47 52;
+        --c-bg-700: 52 58 64;
+        --c-bg-600: 73 80 87;
+        --c-white: 248 249 250;
+        --c-slate-200: 222 226 230;
+        --c-slate-300: 206 212 218;
+        --c-slate-400: 173 181 189;
+        --c-slate-500: 134 142 150;
+        --c-accent: 134 142 150;
+        --c-accent-hover: 108 117 125;
+        --c-accent-soft: 206 212 218;
+        --c-glow: 206 212 218;
+        --c-on-accent: 20 23 26;
+    }
+
+    [data-theme='stone-light'] {
+        --c-bg-900: 248 249 250;
+        --c-bg-800: 255 255 255;
+        --c-bg-700: 222 226 230;
+        --c-bg-600: 206 212 218;
+        --c-white: 33 37 41;
+        --c-slate-200: 52 58 64;
+        --c-slate-300: 73 80 87;
+        --c-slate-400: 73 80 87;
+        --c-slate-500: 108 117 125;
+        --c-accent: 73 80 87;
+        --c-accent-hover: 52 58 64;
+        --c-accent-soft: 73 80 87;
+        --c-glow: 108 117 125;
+        --c-on-accent: 255 255 255;
+    }
+
+    /* Mono — pure black & white (high-contrast monochrome, no hue) */
+    [data-theme='mono-dark'] {
+        --c-bg-900: 0 0 0;
+        --c-bg-800: 15 15 15;
+        --c-bg-700: 26 26 26;
+        --c-bg-600: 42 42 42;
+        --c-white: 255 255 255;
+        --c-slate-200: 229 229 229;
+        --c-slate-300: 200 200 200;
+        --c-slate-400: 156 156 156;
+        --c-slate-500: 115 115 115;
+        --c-accent: 245 245 245;
+        --c-accent-hover: 212 212 212;
+        --c-accent-soft: 229 229 229;
+        --c-glow: 255 255 255;
+        --c-on-accent: 10 10 10;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-base-900 font-sans text-slate-200;
+        /* Subtle glow backdrop for depth — tracks the active theme's accent */
+        background-image: radial-gradient(circle at 50% 0%,
+                rgb(var(--c-accent) / 0.08),
+                transparent 45%);
+        background-attachment: fixed;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Nicer, on-brand scrollbar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-base-900;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply rounded-full bg-base-600;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-accent;
+    }
+
+    /* Respect users who prefer reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}

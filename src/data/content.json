@@ -1,0 +1,849 @@
+{
+    "personal": {
+        "name": "Sahitya Kumar Suman",
+        "role": "Full-Stack Software Engineer · Mobile, Web, Web3 & Enterprise Platforms",
+        "taglineWords": [
+            "Mobile Apps",
+            "Games",
+            "Websites",
+            "Web3 Platforms",
+            "Factory Software",
+            "Efficient Systems",
+            "E-commerce Platforms",
+            "Exchange Platforms",
+            "Data Platforms"
+        ],
+        "location": "India",
+        "email": "sahityakumarsuman@gmail.com",
+        "phone": "+91 75062 24347",
+        "resumeUrl": "/resume/Sahitya_Kumar_Suman_Resume.pdf",
+        "profileImage": "/profile.jpg",
+        "pitch": "One partner to take your idea from whiteboard to scale.",
+        "intro": "A decade shipping software that holds up under real users and real load. I stay through architecture, launch, and long-term support — so you get a product built to grow, not a system no one can maintain."
+    },
+    "socials": [
+        {
+            "label": "LinkedIn",
+            "href": "https://linkedin.com/in/sahitya",
+            "icon": "linkedin"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com",
+            "icon": "github"
+        },
+        {
+            "label": "Medium",
+            "href": "https://medium.com/@sahityakumarsuman",
+            "icon": "medium"
+        }
+    ],
+    "navLinks": [
+        {
+            "id": "home",
+            "label": "Home"
+        },
+        {
+            "id": "about",
+            "label": "About"
+        },
+        {
+            "id": "skills",
+            "label": "Skills"
+        },
+        {
+            "id": "experience",
+            "label": "Experience"
+        },
+        {
+            "id": "projects",
+            "label": "Projects"
+        },
+        {
+            "id": "achievements",
+            "label": "Awards"
+        },
+        {
+            "id": "process",
+            "label": "Process"
+        },
+        {
+            "id": "pricing",
+            "label": "Pricing"
+        },
+        {
+            "id": "blog",
+            "label": "Blog"
+        },
+        {
+            "id": "contact",
+            "label": "Contact"
+        }
+    ],
+    "about": {
+        "heading": "About Me",
+        "paragraphs": [
+            "I'm a Lead Software Engineer with a decade of experience spanning mobile development, full-stack blockchain, and high-throughput backend systems. I've shipped mobile apps, multi-chain Web3 platforms, and event-driven microservices trusted by hundreds of thousands of users worldwide.",
+            "Today I lead a team at John Deere, delivering the software that powers scanners, printers, and industrial machines across factories worldwide. Recognized as Employee of the Year and Best Team Lead at Reliance Jio (Fynd), I care deeply about reliability, clean architecture, and mentoring engineers to ship with confidence — bridging device-level engineering with the cloud."
+        ],
+        "stats": [
+            {
+                "value": "10+",
+                "label": "Years Experience"
+            },
+            {
+                "value": "Global",
+                "label": "Factory Deployments"
+            },
+            {
+                "value": "500K+",
+                "label": "Users Onboarded"
+            }
+        ]
+    },
+    "skills": {
+        "heading": "Technical Skills",
+        "subheading": "A full-stack toolkit spanning mobile, blockchain, and high-throughput real-time platforms.",
+        "groups": [
+            {
+                "title": "Languages",
+                "items": [
+                    "Kotlin",
+                    "Java",
+                    "JavaScript",
+                    "TypeScript",
+                    "Python",
+                    "C",
+                    "SQL",
+                    "Solidity"
+                ]
+            },
+            {
+                "title": "Mobile Engineering",
+                "items": [
+                    "Kotlin",
+                    "Jetpack Compose",
+                    "Android SDK",
+                    "Coroutines",
+                    "Room",
+                    "MVVM"
+                ]
+            },
+            {
+                "title": "Backend & Real-time",
+                "items": [
+                    "Node.js",
+                    "Express",
+                    "Kafka",
+                    "Redis",
+                    "WebSocket",
+                    "BullMQ",
+                    "Memcached"
+                ]
+            },
+            {
+                "title": "Databases",
+                "items": [
+                    "MongoDB",
+                    "PostgreSQL",
+                    "Redis",
+                    "ClickHouse"
+                ]
+            },
+            {
+                "title": "Web3 & Blockchain",
+                "items": [
+                    "Solidity",
+                    "Ethereum",
+                    "Solana",
+                    "Tron",
+                    "ERC-721",
+                    "ERC-1155"
+                ]
+            },
+            {
+                "title": "Frontend",
+                "items": [
+                    "Next.js",
+                    "React.js",
+                    "Vue.js"
+                ]
+            },
+            {
+                "title": "Cloud & DevOps",
+                "items": [
+                    "AWS",
+                    "GCP",
+                    "Azure",
+                    "Docker",
+                    "Kubernetes",
+                    "Firebase",
+                    "Helm"
+                ]
+            },
+            {
+                "title": "Observability & Tools",
+                "items": [
+                    "Prometheus",
+                    "Grafana",
+                    "New Relic",
+                    "Sentry",
+                    "Coralogix",
+                    "K6",
+                    "Git",
+                    "Jira"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "heading": "Experience",
+        "subheading": "Where I have led teams and shipped systems that scale.",
+        "timeline": [
+            {
+                "role": "Senior Lead Software Engineer",
+                "company": "John Deere",
+                "period": "2025 — Present",
+                "type": "Full-time",
+                "current": true,
+                "points": [
+                    "Lead a cross-functional team delivering the software that powers scanners, printers, and industrial machines across John Deere factories worldwide.",
+                    "Drive Android engineering for on-machine device interfaces and factory-floor apps, improving operator throughput and reliability.",
+                    "Own the architecture of full-stack platforms integrating IoT device telemetry, real-time monitoring, and cloud services across global sites."
+                ]
+            },
+            {
+                "role": "Senior Software Engineer",
+                "company": "Fynd (Reliance Jio)",
+                "period": "2021 — 2025",
+                "type": "Full-time",
+                "current": false,
+                "points": [
+                    "Architected Frolic, a real-time fantasy platform, using event-driven microservices (Node.js, Kafka, Redis, MongoDB, PostgreSQL) scaling to 200K+ concurrent users with automated contest creation, auto-cancellation, and prize distribution.",
+                    "Expanded real-time Product Recommendations for the Search Extension, syncing 100K+ products and 100K+ user events per hour to Google Retail Cloud for Tira, Reliance Trends, Netmeds, and GoFynd.",
+                    "Cut real-time matchmaking latency from 2s to 500ms with a high-performance Redis-backed WebSocket microservice, offloading polling from core servers and boosting user satisfaction by 30%.",
+                    "Built a full-featured crypto marketplace (KraftNFT) with an order book, NFT minting, and auctions across Solana, Ethereum & Tron (ERC-721/1155) — $11K+ monthly revenue, 45K+ DAU, and 35–55ms API latency.",
+                    "Designed multi-chain custodial and non-custodial wallet infrastructure (7K+ Q1 transactions) and enhanced a k6/xk6 load-testing platform with ClickHouse reporting and Grafana dashboards."
+                ]
+            },
+            {
+                "role": "Software Engineer 2",
+                "company": "QuillHash",
+                "period": "2018 — 2021",
+                "type": "Full-time",
+                "current": false,
+                "points": [
+                    "Led a scalable crypto exchange (Node.js, MongoDB, Redis, Kafka) with 150+ REST APIs and centralized wallet management across Bitcoin, Ethereum & Solana — supporting 8K+ concurrent trades and onboarding 72K+ global users.",
+                    "Built a generic product-tracking system on Ethereum with dynamic smart contracts for real-time shipment and ownership tracking, integrated with DMCC — supporting 200K+ shipments and 50K+ smart contracts across 12+ categories.",
+                    "Engineered a Smart Contract Audit & decentralized wallet extension across Ethereum, Polygon & BSC — leading 4+ developers, managing 10K+ active wallets and $16K+ monthly revenue.",
+                    "Built Zeptagram, a decentralized music-rights platform (Node.js, React.js, MongoDB) with NFT (ERC-721) support, onboarding 90K+ creators.",
+                    "Contributed to Centralex, a licensed hybrid CeFi + DeFi digital-asset exchange bridging centralized and decentralized finance into a single platform."
+                ]
+            },
+            {
+                "role": "Software Engineer 1",
+                "company": "Darwin Labs",
+                "period": "2016 — 2018",
+                "type": "Full-time",
+                "current": false,
+                "points": [
+                    "Shipped a real-time cricket-betting Android app (Java, XML) on the Sportsy platform, integrated with a high-performance backend supporting 80K+ active users.",
+                    "Built MurMur, an Android short-form news aggregator that predated Inshorts and drew an incubation offer from Hindustan Times.",
+                    "Developed an Android Bitcoin wallet app (Android Studio + Node.js) with secure key management for GainBitcoin.",
+                    "Managed company-wide New Relic monitoring and query optimization — cutting average response time by 40% — and launched a promotions & discount engine that lifted average order value by 20%."
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "heading": "Selected Projects",
+        "subheading": "Systems I've designed and scaled across industrial software, mobile, and Web3.",
+        "items": [
+            {
+                "title": "Factory Device Platform — John Deere",
+                "description": "Software controlling scanners, printers, and industrial machines across John Deere factories worldwide, with Android device interfaces and real-time monitoring.",
+                "tags": [
+                    "Factory",
+                    "Scanners",
+                    "Printers",
+                    "Laptop",
+                    "Mac",
+                    "Windows",
+                    "Android",
+                    "React",
+                    "Node.js",
+                    "Full-Stack"
+                ],
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-green-500 to-lime-500",
+                "icon": "/johndeere-logo.png",
+                "iconWordmark": true
+            },
+            {
+                "title": "Fynd Engage — Loyalty SaaS",
+                "description": "Scalable loyalty platform serving 100K+ users with point accrual, transaction ledger, and a Kafka-based redemption engine.",
+                "tags": [
+                    "Reliance",
+                    "Fynd",
+                    "Node.js",
+                    "Kafka",
+                    "Next.js"
+                ],
+                "image": "/fynd-engage-dashboard.png",
+                "imageFit": "cover",
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-emerald-500 to-teal-500",
+                "links": [
+                    {
+                        "label": "Documentation",
+                        "href": "https://documentation.fynd.com/engage/docs/introduction"
+                    }
+                ]
+            },
+            {
+                "title": "Product Recommendations — Search",
+                "description": "Real-time pipelines syncing 100K+ products and user events per hour to Google Retail Cloud for Tira, Netmeds & GoFynd.",
+                "tags": [
+                    "Reliance",
+                    "Fynd",
+                    "GCP Retail",
+                    "Kafka",
+                    "Node.js"
+                ],
+                "image": "/Product-Recommendation-example.webp",
+                "imageFit": "cover",
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-amber-500 to-orange-500"
+            },
+            {
+                "title": "Frolic — Real-time Fantasy Platform",
+                "description": "Event-driven microservices powering contests, auto-cancellation, and prize distribution for 200K+ concurrent users.",
+                "tags": [
+                    "Reliance",
+                    "Fynd",
+                    "Node.js",
+                    "Kafka",
+                    "Redis",
+                    "PostgreSQL"
+                ],
+                "images": [
+                    "/frolic-screenshot-mobile-games.webp",
+                    "/frolic-screenshot-mobile-games-1.webp",
+                    "/frolic-screenshot-mobile-games-2.webp",
+                    "/frolic-screenshot-mobile-games-3.webp",
+                    "/frolic-screenshot-mobile-games-4.webp",
+                    "/frolic-screenshot-mobile-games-5.webp"
+                ],
+                "imageFit": "contain",
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-indigo-500 to-purple-500"
+            },
+            {
+                "title": "KraftNFT — Multi-chain Marketplace",
+                "description": "Order-book crypto marketplace with NFT minting and auctions across Solana, Ethereum & Tron. $11K+/mo, 45K+ DAU.",
+                "tags": [
+                    "Reliance",
+                    "Fynd",
+                    "Solana",
+                    "Ethereum",
+                    "Tron",
+                    "NFT"
+                ],
+                "images": [
+                    "/kraft-nft-1.png",
+                    "/kraft-nft-2.png",
+                    "/kraft-nft-3.png",
+                    "/kraft-nft-4.png"
+                ],
+                "imageFit": "cover",
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-cyan-500 to-blue-500"
+            },
+            {
+                "title": "Centralex — Hybrid Digital Asset Exchange",
+                "description": "A licensed CeFi + DeFi exchange bridging centralized and decentralized finance into one platform, serving both retail customers and professional traders with crypto-as-payment.",
+                "tags": [
+                    "CeFi",
+                    "DeFi",
+                    "Crypto Exchange",
+                    "Web3"
+                ],
+                "liveUrl": "https://www.centralex.com",
+                "codeUrl": "#",
+                "accent": "from-blue-500 to-indigo-500",
+                "icon": "/centralex-logo.png",
+                "links": [
+                    {
+                        "label": "Website",
+                        "href": "https://www.centralex.com"
+                    },
+                    {
+                        "label": "CoinMarketCap",
+                        "href": "https://coinmarketcap.com/currencies/centralex/"
+                    },
+                    {
+                        "label": "Case Study",
+                        "href": "https://cdn.featuredcustomers.com/CustomerCaseStudy.document/chainalysis_centralex_889131.pdf"
+                    },
+                    {
+                        "label": "Medium",
+                        "href": "https://centralex.medium.com/"
+                    }
+                ]
+            },
+            {
+                "title": "HYGH — Security Token Offering",
+                "description": "Engineering for a blockchain-based digital out-of-home advertising platform's STO — tokenising ad-space investment with smart contracts and a compliant token-sale flow.",
+                "tags": [
+                    "STO",
+                    "Ethereum",
+                    "Smart Contracts",
+                    "Web3"
+                ],
+                "liveUrl": "https://icomarks.ai/sto/hygh",
+                "codeUrl": "#",
+                "accent": "from-sky-500 to-blue-500",
+                "icon": "/hygh.tech.jpg",
+                "links": [
+                    {
+                        "label": "STO Details",
+                        "href": "https://icomarks.ai/sto/hygh"
+                    },
+                    {
+                        "label": "Instagram",
+                        "href": "https://www.instagram.com/hygh_official"
+                    },
+                    {
+                        "label": "YouTube",
+                        "href": "https://www.youtube.com/channel/UCNHWMKDV-0RDzQpOmyHiELw"
+                    }
+                ]
+            },
+            {
+                "title": "QuillAudits — Blockchain Security Audits",
+                "description": "Engineering for a leading blockchain security auditor — smart contract audits, pentesting, and dual code reviews that have secured 1500+ Web3 projects.",
+                "tags": [
+                    "Smart Contracts",
+                    "Security",
+                    "Web3"
+                ],
+                "image": "/quillaudits-og.png",
+                "imageFit": "cover",
+                "liveUrl": "https://www.quillaudits.com",
+                "codeUrl": "#",
+                "accent": "from-pink-500 to-rose-500"
+            },
+            {
+                "title": "Zeptagram — Decentralized Music",
+                "description": "A Web3-native platform letting creators upload, sell, and retain ownership of audio assets. Onboarded 90K+ users.",
+                "tags": [
+                    "Node.js",
+                    "React",
+                    "NFT"
+                ],
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-violet-500 to-fuchsia-500",
+                "icon": "/zeptagram.jpg"
+            },
+            {
+                "title": "CoutLoot — Social Commerce Marketplace",
+                "description": "A social-commerce app where anyone can shop or sell products, services, and digital content — with live video selling, a discovery feed, and in-app chat and ordering.",
+                "tags": [
+                    "React Native",
+                    "Live Commerce",
+                    "Marketplace",
+                    "Mobile"
+                ],
+                "images": [
+                    "/coutloot-1.webp",
+                    "/coutloot-2.webp",
+                    "/coutloot-3.webp",
+                    "/coutloot-4.webp",
+                    "/coutloot-5.webp"
+                ],
+                "imageFit": "contain",
+                "liveUrl": "https://www.coutloot.com",
+                "codeUrl": "#",
+                "accent": "from-fuchsia-500 to-purple-500"
+            },
+            {
+                "title": "Sportsie — Sports Fan Super-App",
+                "description": "A one-stop destination for sports fans — live scores, news, highlights, and social feeds, alongside social games like predictions, fantasy, and trivia. Deployed across 15+ countries in 7+ languages.",
+                "tags": [
+                    "Android",
+                    "Node.js",
+                    "Fantasy",
+                    "Live Scores"
+                ],
+                "images": [
+                    "/sportsie.webp",
+                    "/sportsie-1.webp",
+                    "/sportsie-2.webp",
+                    "/sportsie-3.webp",
+                    "/sportsie-4.webp"
+                ],
+                "imageFit": "contain",
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-lime-500 to-green-500"
+            },
+            {
+                "title": "CricBet — Cricket Prediction Game",
+                "description": "A social virtual-currency cricket prediction game with live odds and social leaderboards. Built at Mastermind Sports (backed by Nazara Games) and later evolved into Sportsie.",
+                "tags": [
+                    "Android",
+                    "Java",
+                    "Prediction Game",
+                    "Live Odds"
+                ],
+                "images": [
+                    "/cricbet-1.png",
+                    "/cricbet-2.png",
+                    "/cricbet-3.png",
+                    "/crcbet-4.png"
+                ],
+                "imageFit": "contain",
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-yellow-500 to-amber-500"
+            },
+            {
+                "title": "MurMur — Android News Aggregator",
+                "description": "A short-form news app that predated Inshorts, delivering bite-sized news across categories — drew an incubation offer from Hindustan Times.",
+                "tags": [
+                    "Node.js",
+                    "Android",
+                    "Java",
+                    "AWS"
+                ],
+                "images": [
+                    "/murmur-app-screenshot-1.webp",
+                    "/murmur-app-screenshot-2.webp",
+                    "/murmur-app-screenshot-3.webp",
+                    "/murmur-app-screenshot-4.webp",
+                    "/murmur-app-screenshot-5.webp"
+                ],
+                "imageFit": "contain",
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-orange-500 to-red-500"
+            },
+            {
+                "title": "Product Provenance — Blockchain Tracking",
+                "description": "Ethereum smart-contract system for real-time shipment and ownership tracking, integrated with DMCC. 200K+ shipments and 50K+ smart contracts across 12+ categories.",
+                "tags": [
+                    "Ethereum",
+                    "Smart Contracts",
+                    "Node.js"
+                ],
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-teal-500 to-emerald-500"
+            },
+            {
+                "title": "GainBitcoin — Bitcoin Wallet",
+                "description": "A Bitcoin wallet for secure send, receive, and balance tracking — with address management, QR payments, and transaction history on the Bitcoin network.",
+                "tags": [
+                    "Bitcoin",
+                    "Wallet",
+                    "Android"
+                ],
+                "liveUrl": "#",
+                "codeUrl": "#",
+                "accent": "from-amber-500 to-yellow-500"
+            }
+        ]
+    },
+    "education": {
+        "heading": "Education",
+        "subheading": "The academic foundation behind the engineering.",
+        "items": [
+            {
+                "institution": "Jaipur National University",
+                "degree": "Bachelor of Technology",
+                "period": "2012 — 2016",
+                "location": "Jaipur, Rajasthan"
+            },
+            {
+                "institution": "Shri Rama Bharti Public School",
+                "degree": "Physics, Chemistry & Mathematics (Senior Secondary)",
+                "period": "2010 — 2012",
+                "location": "New Delhi"
+            }
+        ]
+    },
+    "achievements": {
+        "heading": "Achievements & Certifications",
+        "subheading": "Recognition and certifications earned across a decade of engineering.",
+        "items": [
+            {
+                "title": "Best Committed Award",
+                "detail": "Recognized in my current organization for consistent commitment, ownership, and reliability in delivering mission-critical work."
+            },
+            {
+                "title": "Outstanding Performance Award",
+                "detail": "Awarded for outstanding performance and high-impact contributions to engineering delivery and team success."
+            },
+            {
+                "title": "Certified in Networking",
+                "detail": "Fundamentals of computer networking — protocols, topologies, and secure, reliable network design."
+            },
+            {
+                "title": "Certified in Backend Architecture",
+                "detail": "Designing scalable, resilient backend systems, service architecture, and high-availability infrastructure."
+            },
+            {
+                "title": "Certified in Service & Product Design and Development",
+                "detail": "End-to-end service and product design — from concept and architecture to development and delivery."
+            }
+        ]
+    },
+    "process": {
+        "heading": "How I Work With You",
+        "subheading": "A transparent, customer-first engineering process — from the very first conversation to a product that scales. You stay in the loop at every single step.",
+        "steps": [
+            {
+                "step": "01",
+                "title": "Discover & Understand",
+                "description": "We start by listening. I sit down with you to capture what you actually need — the goals, the users, the constraints — and understand the real problem behind the request."
+            },
+            {
+                "step": "02",
+                "title": "Analyze & Refine Requirements",
+                "description": "Together we pressure-test and refine the requirements, cut what doesn't serve the goal, and lock a clear scope. This is where we prevent wasted time, money, and resources."
+            },
+            {
+                "step": "03",
+                "title": "Architect for Scale",
+                "description": "As your engineer-architect I design the entire infrastructure — choosing the right stack and patterns so the system meets today's needs and scales cleanly as you grow."
+            },
+            {
+                "step": "04",
+                "title": "Build the MVP",
+                "description": "I ship a lean, working MVP fast — the smallest thing that delivers real value — so you can see it, use it, and validate the direction with real feedback."
+            },
+            {
+                "step": "05",
+                "title": "Iterate & Improve",
+                "description": "With your feedback we improve in short, focused cycles — hardening, refining, and adding what matters most, one release at a time."
+            },
+            {
+                "step": "06",
+                "title": "Support & Grow",
+                "description": "After launch I stay on — monitoring, maintaining, and scaling the platform as your business grows. You're never left on your own."
+            },
+            {
+                "step": "07",
+                "title": "Support Existing Systems",
+                "description": "Already have a system built? I step in to support, stabilize, and scale it — even code I didn't write. Bug fixes, performance, security, and a safe pair of hands when you need professional help."
+            }
+        ],
+        "principles": [
+            "Complete transparency at every step",
+            "Zero wasted resources",
+            "Built to scale from day one",
+            "You're a partner, not a ticket"
+        ]
+    },
+    "pricing": {
+        "heading": "Fair, Transparent Pricing",
+        "subheading": "You pay for the value delivered and a decade of hard-won experience — never for wasted effort. Every engagement is scoped openly, so you always know exactly what you're paying for and why.",
+        "tiers": [
+            {
+                "name": "Project & MVP Build",
+                "tagline": "For turning an idea into a real, working product.",
+                "priceLabel": "Fixed, milestone-based quote",
+                "highlighted": false,
+                "features": [
+                    "Requirement analysis & refinement",
+                    "System design & architecture",
+                    "MVP built and shipped fast",
+                    "Clear milestones & fixed scope",
+                    "Handover with documentation"
+                ]
+            },
+            {
+                "name": "Dedicated Engineering",
+                "tagline": "A long-term full-stack partner for your product.",
+                "priceLabel": "Monthly retainer",
+                "highlighted": true,
+                "features": [
+                    "Everything in Project & MVP Build",
+                    "Ongoing feature development",
+                    "Architecture & scaling as you grow",
+                    "Priority availability & planning",
+                    "Weekly transparent progress updates"
+                ]
+            },
+            {
+                "name": "Support & Maintenance",
+                "tagline": "Professional support for systems already built.",
+                "priceLabel": "Hourly or retainer",
+                "highlighted": false,
+                "features": [
+                    "Support for code I didn't write",
+                    "Bug fixes & performance tuning",
+                    "Security hardening & monitoring",
+                    "Scaling existing infrastructure",
+                    "Safe takeover of live systems"
+                ]
+            }
+        ],
+        "note": "Not sure which fits? Tell me about your project and I'll recommend the fairest option — no obligation."
+    },
+    "blog": {
+        "heading": "Writing",
+        "subheading": "Deep-dives on Node.js internals, blockchain architecture, and Android engineering — read by tens of thousands on Medium.",
+        "profileUrl": "https://sahityakumarsuman.medium.com/",
+        "posts": [
+            {
+                "title": "Consensus Mechanisms in Blockchain",
+                "excerpt": "How Proof of Work, Proof of Stake, and other consensus models keep decentralized networks in agreement.",
+                "date": "Jul 1, 2024",
+                "tag": "Blockchain",
+                "url": "https://medium.com/@sahityakumarsuman_34707/consensus-mechanisms-in-blockchain-514c18010e6c"
+            },
+            {
+                "title": "Merkle Trees: The Backbone of Blockchain Technology",
+                "excerpt": "Why Merkle trees make blockchains tamper-evident and enable efficient, verifiable data integrity.",
+                "date": "Jun 29, 2024",
+                "tag": "Blockchain",
+                "url": "https://medium.com/@sahityakumarsuman_34707/merkle-trees-the-backbone-of-blockchain-technology-eab9d82f25c8"
+            },
+            {
+                "title": "Smart Contracts for NFT Marketplaces: Linking Real-World Assets with Digital",
+                "excerpt": "Designing smart contracts that bridge real-world assets and digital ownership in NFT marketplaces.",
+                "date": "Jun 27, 2024",
+                "claps": "100",
+                "tag": "Smart Contracts",
+                "url": "https://medium.com/@sahityakumarsuman_34707/smart-contracts-for-nft-marketplaces-linking-real-world-assets-with-digital-061a5bb0dbe5"
+            },
+            {
+                "title": "Multiple Blockchain Transactions in a Single Wallet & Managing NFTs",
+                "excerpt": "Architecting a multi-chain wallet that handles transactions across networks and manages NFTs seamlessly.",
+                "date": "Jun 26, 2024",
+                "claps": "102",
+                "tag": "Web3",
+                "url": "https://medium.com/@sahityakumarsuman_34707/supporting-multiple-blockchain-transactions-in-a-single-wallet-and-managing-nfts-f02152083e9d"
+            },
+            {
+                "title": "System Design & Architecture Best Practices for Node.js with TypeScript",
+                "excerpt": "Battle-tested patterns for structuring scalable, maintainable Node.js applications in TypeScript.",
+                "date": "Jun 20, 2024",
+                "claps": "101",
+                "tag": "Node.js",
+                "url": "https://medium.com/@sahityakumarsuman_34707/best-practices-in-system-design-and-architecture-for-node-js-applications-using-typescript-9f35756aa292"
+            },
+            {
+                "title": "Understanding GraphQL: Effectiveness, Pros, Cons & a Practical Use Case",
+                "excerpt": "A pragmatic look at GraphQL's strengths and trade-offs, with a real TypeScript and Node.js example.",
+                "date": "Jun 19, 2024",
+                "claps": "100",
+                "tag": "GraphQL",
+                "url": "https://medium.com/@sahityakumarsuman_34707/understanding-graphql-effectiveness-pros-and-cons-and-a-practical-use-case-with-typescript-and-045f38a8ddf0"
+            },
+            {
+                "title": "Exploring Databases for Server Applications: Types, Uses & Caching",
+                "excerpt": "Choosing the right database — SQL, NoSQL, and caching layers like Redis — for server-side workloads.",
+                "date": "Jun 18, 2024",
+                "claps": "100",
+                "tag": "Databases",
+                "url": "https://medium.com/@sahityakumarsuman_34707/exploring-databases-for-server-applications-types-uses-and-caching-ceb6890dffc2"
+            },
+            {
+                "title": "Mastering TypeScript for Node.js: Advanced Skills for Modern Developers",
+                "excerpt": "Advanced TypeScript techniques that make Node.js codebases safer, cleaner, and more expressive.",
+                "date": "Jun 17, 2024",
+                "claps": "100",
+                "tag": "TypeScript",
+                "url": "https://medium.com/@sahityakumarsuman_34707/mastering-typescript-for-nodejs-advanced-coding-skills-for-the-modern-developer-8cbc49aba94a"
+            },
+            {
+                "title": "Introduction of Ethereum Plasma Framework",
+                "excerpt": "A small introduction to the Plasma Framework and how sidechains scale Ethereum.",
+                "date": "Oct 21, 2019",
+                "claps": "223",
+                "tag": "Blockchain",
+                "url": "https://sahityakumarsuman.medium.com/introduction-of-ethereum-plasma-framework-5ef9a565281"
+            },
+            {
+                "title": "Everything About MongoDB — Part 1",
+                "excerpt": "The core terms and concepts that define MongoDB as a general-purpose database.",
+                "date": "Sep 30, 2019",
+                "claps": "116",
+                "tag": "Databases",
+                "url": "https://sahityakumarsuman.medium.com/everything-about-mongodb-part-1-c577dcbd0287"
+            },
+            {
+                "title": "Is Node Single Threaded?",
+                "excerpt": "An experiment to understand the single vs. multi-thread nature of Node.js.",
+                "date": "Sep 8, 2019",
+                "claps": "282",
+                "tag": "Node.js",
+                "url": "https://sahityakumarsuman.medium.com/is-node-is-single-threaded-8695ad8d3050"
+            },
+            {
+                "title": "How NodeJS Works Internally?",
+                "excerpt": "A breakdown of the event loop, libuv, and what really happens under the hood in Node.js.",
+                "date": "Sep 5, 2019",
+                "claps": "456",
+                "tag": "Node.js",
+                "url": "https://sahityakumarsuman.medium.com/how-nodejs-works-internally-6cf508e61548"
+            },
+            {
+                "title": "Blockchain 3 Layer Architecture",
+                "excerpt": "Why blockchain is best understood as a stack of layers rather than a single technology.",
+                "date": "Jun 1, 2018",
+                "claps": "661",
+                "tag": "Blockchain",
+                "url": "https://sahityakumarsuman.medium.com/blockchain-3-layer-architecture-51e8bb2388cf"
+            },
+            {
+                "title": "Android: Service Communication with Activity",
+                "excerpt": "Patterns for communicating between a Service and an Activity in Android apps.",
+                "date": "Aug 27, 2017",
+                "claps": "247",
+                "tag": "Android",
+                "url": "https://sahityakumarsuman.medium.com/android-service-communication-with-activity-2c01e537ab03"
+            },
+            {
+                "title": "Android: ExecutorService Fanboy for Service",
+                "excerpt": "Using ExecutorService to handle background work cleanly inside Android Services.",
+                "date": "Aug 27, 2017",
+                "claps": "237",
+                "tag": "Android",
+                "url": "https://sahityakumarsuman.medium.com/android-executorservice-fanboy-for-service-90af6f36eab7"
+            },
+            {
+                "title": "Android: IntentService — The Saviour",
+                "excerpt": "How IntentService simplifies background task handling in real-world Android apps.",
+                "date": "Aug 27, 2017",
+                "claps": "319",
+                "tag": "Android",
+                "url": "https://sahityakumarsuman.medium.com/android-intentservice-the-saviour-72865e20e0e5"
+            }
+        ]
+    },
+    "contact": {
+        "heading": "Let's Build Something",
+        "subheading": "Whether you're building something new, scaling an existing system, or looking for a technical partner to architect it right — let's talk. My inbox is always open.",
+        "channels": [
+            {
+                "label": "sahityakumarsuman@gmail.com",
+                "href": "mailto:sahityakumarsuman@gmail.com",
+                "icon": "mail"
+            },
+            {
+                "label": "+91 75062 24347",
+                "href": "tel:+917506224347",
+                "icon": "phone"
+            }
+        ]
+    }
+}

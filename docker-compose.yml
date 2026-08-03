@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: sahitya-portfolio:latest
+    container_name: sahitya-portfolio
+    ports:
+      - "8080:80"
+    restart: unless-stopped
